@@ -5,8 +5,8 @@ import type * as Plugin from "@docusaurus/types/src/plugin";
 const config: Config = {
   title: "Skribble API Documentation",
   tagline: "API Documentation",
-  url: "https://skribble-freddy.github.io/api-site/",
-  baseUrl: "/",
+  url: "https://skribble-freddy.github.io",
+  baseUrl: "/api-site/",
   favicon: "img/favicon.ico",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

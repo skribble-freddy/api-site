@@ -1,0 +1,1 @@
+{"title":"Body","body":{"description":"Request body to withdraw a SignatureRequest object","required":false,"content":{"application/json":{"schema":{"title":"Withdraw Signature Request","type":"object","properties":{"message":{"type":"string","description":"Withdraw message.","minLength":0,"maxLength":2048,"example":"The reason for withdrawing the signature."}}}}}}}

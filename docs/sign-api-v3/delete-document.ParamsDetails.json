@@ -1,0 +1,1 @@
+{"parameters":[{"name":"DOC_ID","in":"path","description":"Unique ID received when creating the Document Request object","required":true,"schema":{"type":"string","format":"uuid"},"example":"f1e2d3c4-7b8a-4e6f-9d3b-123456789abc"}]}

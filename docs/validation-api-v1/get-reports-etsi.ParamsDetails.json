@@ -1,0 +1,1 @@
+{"parameters":[{"name":"id","in":"path","required":true,"description":"The 'id' provided by the validate operation","schema":{"type":"string","format":"uuid","default":"3fa85f64-5717-4562-b3fc-2c963f66afa6"}}]}

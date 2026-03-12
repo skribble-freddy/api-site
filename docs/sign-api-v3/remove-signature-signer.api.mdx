@@ -1,0 +1,70 @@
+---
+id: remove-signature-signer
+title: "Remove an individual signer"
+description: "To remove an individual signer, provide the SignatureRequest ID `{{SR_ID}}`"
+sidebar_label: "Remove an individual signer"
+hide_title: true
+hide_table_of_contents: true
+api: eJzNVk1v4zYQ/SuETi1gyYmdjROfmjZGYXTRXcTJKQ66I2lss5FIlaTs9Rr6752hPhzHznbR7aG5xCJnHt8MZ95wFzhY2mD8GMzkUoErDQr+hSZ46gUp2sTIwkmtgnFwr4XBXK9RgBJSpXIt0xIyYb19TxRG0woKt6oxPNod/lWidWJ6Kz7tdrO7P6a3VfVprkClh4athd8XeuF3a2ix1aXYgHLCtRSioBfoAg0wt2lK7Or1Dq4JohdYTEoj3ZZi3AUxgqHV8eNTReEVYCBHh8b6TUUfBOQ5kqPkmAtwq+B1Ih6UpKCYsMEE5RpTsVmhEolB4qOWrwJrU6DjPzFxhGZoQRok1s6USBSTFeYQjHeB2xZMwTpDMGS50CYHRytlKdOg6gX4GfIiY5uk+Qsv4BJCuH53FcLFAMNLhIvz0QCGo6uYPPZhfXNQB7n/r+hej9L4/Cq5CkcJnIfDdzAIr0eDy/AsHg5Go3O8gOQy4EsxaAutLFo+YHB2xv8OmX74jaEvTm39DKkwdbprm/NjmwcFpVtpI79gWhsNj41ukgStFSkq2VgNro+t7rUWOahte6Zly3eniE0VlZniZkGzpopGY7SprU+cPiMjmaAoFaxBZhBTCisypmJdaS72FDOq26BXX+U46Nu22sKWSr9ptv0WL9GC7wkmUVd9aTICWDlX2HG/D4WM7LORMR0ZJTrvr4dHlfLR6LRM+EOEYraR7guajPrZV9tX4FL8R7Rf0XA+30Iit1g6yN5iNiMx4/77Jlod2Glee6yO1NNeTWbcA3WNtprStQOfEjRtwt+NAV+gVAvtLaXzXTFrciNuPk6FJ8H3UhMYRmfR2RGte5aWQy+R6qTMUTkvhqK2j9H6Li7KOJNJthVdJXXuc+X96wPFMBKMzUuQZXpjRVxaqagLCMmrNUJuWRy44C11D6uxpLpekgoTGJ+GIVcbp83qrPR0yKHjS5ey8i51K2ytw9z2yHbhNpSjntBGzABmc9W620hMXTtZiAcdzIJSgywg8SS87qInSRcFy1q7fM3PVdsPDEJMcxIomVCE2+iFRHdGKS4oZpJz7TEs/QLHyHPV5tWntU25WFCqRIxugzQAaKAQuCxoVBHxm8S145EzohMqHUvM61Ttk4KxgKKgW/L3F81VczHDfdxRxAOPTJCUkQuoEfWbAqjKxMAXClkqJxeSi7HZCeudw+rfbDYR+O1Im2W/QbX999NfJr/PJuwTrVyesTxRlnP7YdEI0iuQA6FAFWLZ9/ahXoSlxT6dnGgqSxp6e8pd3BNF/YXYjI5Dii+RaZPGjeRtbp+fDva4qQptHd37izPu3n6mvG6onadIifsfPnAaPXH42fWLDGh2V02ido3wPwbHwk+O4/YNs9d+v0prpGEryhe77nYxWHwwWVXxMnkbfiXRzzUY6YcOD4hUWv5NY2cBmcWv5O+Hu+al8KP43ifSydCbRdZi5piV/EU/n3HbvdtY7L+T8ev3z7/hwkyeXk7s28n7yf2EDPjx8WJYNMOht3+a7k5j0215i3v9jKqquqMcf/NhVfU3DKsRxw==
+sidebar_class_name: "delete api-method"
+info_path: docs/sign-api-v3/skribble-api-v-3
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Remove an individual signer"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"delete"}
+  path={"/signature-requests/{SR_ID}/signatures/{SID}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+To remove an individual signer, provide the SignatureRequest ID `{{SR_ID}}`
+and the Signature ID `{{SID}}` of the signer you want to remove.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails
+  {...require("./remove-signature-signer.ParamsDetails.json")}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./remove-signature-signer.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./remove-signature-signer.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

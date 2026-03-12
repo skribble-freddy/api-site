@@ -1,0 +1,70 @@
+---
+id: get-document-content
+title: "Get document content"
+description: "Dwnload the document content that contains the PDF document"
+sidebar_label: "Get document content"
+hide_title: true
+hide_table_of_contents: true
+api: eJzNVu9v2zYQ/VcIfdoAW3JsN60NFFiapIGDIcnieMXSBAUlnSw2EqmRlF3X8P++O+qH7ThpB+zL8iWW9Hh893j3jmvP8rnxxp+9MxWVOUjrPXa8GEykRWGFkt7YO1vKTPGY2RRYXKNYpKSl/zbl1QMX0jjIzdnHFvYgl8Km+ysnZ4wbhwqF5HrFlGaX0+sr5qAfuIHjYRdkpGKICeZ7HU8VoDnRmcRIaA62YXta0UCIgajUwq4wl7UXAteg8efjBtMpuOY5WNDGfZT4QGldn36ZnOFKQUkW3Kbe88xnUvxdAjHWEIFYIKFlCpJFGpCNnLvEGirsFhBsLFPhV4iIksYXQgNStroEpBilkHNvvPbsqiAKxmqMgshE6ZxbfFOWIvY2HQ++8bzICJMcQT8eRMPu2/Ad7w7hOOmO4kHYPeoPhm+O374b8TDyKEsNplDSgKEN+r0e/dtPhzT/idjIpT5ZWs6LIhOREz74aijGejcJYR3DVoD6MFCIigkGqxNtJXlWWa+tpAohmrii0HT4VlR51eS+VHEPhdzqtsu9iBMStVlsxPfdxQLfzrFadlb3R72j3mZPi1ePLFxZOMisUpY1yhLGMJXsdYK/x3fWH9n72WUa9Wf9q/M/y7/6o6f7T7eX4aeP8v6P9++9Df51DtLaP5FXObpOq0MMX6qND9jguipgz2GODjEzyUubKo3yxRVoeAi6UpYlqpQVoj86RNwpxXIuV81+hpBvXiI1QfW15BkzoBegGWitdIUeHKKnCBIRsFLyBRcZD1FXyhdbP1W1b1BBUaePvaA5BhOsKyvYBNGOm9CGlV+UOkN8am1hxkHAC+GbJy1CDO9HKg8Wg4PTv9EqLiN6YF02xVb7DjrjTpIfhovhp9EuQJN2r0XCZaGwPHuN2RTtnozrX9Fqg73MaxurJfW49eEpVWXVtI0btwVKu3i1H9JzDaDDEjJRu+YyrbVhJzcT5kjQuVQEBn7P7x3QusMWe7aqbTnXN6zCh1DNq6IMsaOyFWurpl3+IN36akM28BnFplc8y9TSsLA0QoJBz2UoI7PAc9flVNxkMswq5twFhxcGo92ga8RckmxGZaWjgwtavs6WRVv2K2MhNx3EJnaJGnXIv6ecTx9ks9z4bGIZuuRCxMQDNyZHqYIkPHIk3MACRxIPis+BEQtuS420mjakIMg0R8tAh8mylc+mDartVRQvwZxxDioXw+AvvAFg5AfZ6Lo/7xOUioVgl4CTE0cxBhcFx77z2UlkS0qzVkRFWDoGmVdSbUWBkO34nv8g64MZbPP2fbJThAANnnE75U8KjlXG+q5QECmtSAQVY/2lW33Zr/7lculz99lXeh7UUU3w++T0/Gp6Tmv81OYZWRGqnJvrpDafZ0H2jAJkF8rA4bsq6ZYGgnrc8sjuUG7zPpfYXwC1me9T3I1McyTH2nWzLFG/7X2jpiqUsXjuO3tcgD24yz3vpPV2/P0f7oC1d1j4ZoMiw61IfSfKuvb0z17r6Ygftxe8Jg10pxSVIOB6HeImM51tNvQaa1vTzRF/LrgWbnSQ9cfC0G8cHgnPDPxAoF9u68ver+w/3hpfzLN+SSZLFLOSnvDnE6y2V9nNIyJT4LG7+q7rjydRBIXdWXZwqyPbbofkxfkdYmnQ7xh2bdCd7cV6/TIl1NUh7tQTSNS2YWjpmQhuNv8AiRxLEQ==
+sidebar_class_name: "get api-method"
+info_path: docs/sign-api-v3/skribble-api-v-3
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get document content"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/documents/{DOC_ID}/content"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Dwnload the document content that contains the PDF document
+with the document ID as PDF binary or JSON with Base64-encoded PDF.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails
+  {...require("./get-document-content.ParamsDetails.json")}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./get-document-content.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./get-document-content.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

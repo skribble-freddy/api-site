@@ -1,0 +1,1 @@
+{"parameters":[{"name":"username","in":"query","description":"Username to find","required":false,"schema":{"type":"string","format":"email"},"example":"john.doe@skribble.com"}]}

@@ -1,0 +1,69 @@
+---
+id: add-document-in-signature-request
+title: "Add an additional document"
+description: "To add an additional document while the `SignatureRequest` is still in `DRAFT`."
+sidebar_label: "Add an additional document"
+hide_title: true
+hide_table_of_contents: true
+api: eJytVm1v2zYQ/iuEPm2ALaVOmjYGCixp0sFd0WR+WbE0wUJJZ4uNRGokZdc1/N93R1GyHTtdgc0fEkk8Pnzujs/drQLLZybofw5GYia5rTQE950gBZNoUVqhZNAPxorxNGVc0j9BH3nOUpVUBUjLFpnIgdkM2EOLMYS/KzD2gQnDjBV5zoRkD5fD83fjhzDoBKoEzQlokCI+ol56tIF8ioHWBpJKC7tEmqsgBq5B4+P9GomWXPMCLGjjFiW+IOBo+NfgEjcKYl9ymwVPXZpIgehscMk0JCDmkKIfIFmiAXnJmfOnpcI8F6biL5AQJY0fhAZkb3UFSDHJoOBBfxXYZUkUjNUIg5ZTpQtu8UtViTRYdwL4yosyJ5vE/7on/JR3+dnL111+0oPuKfCTF696/PjV6zggL3V9/IVKl3TErisNtxhXmfWpYk1AD3BNlLS0gki8LHORuExEXwzBrbZdEdbx3MShQWWTMlc8RXDvbhuYUlNurQBDCFtHPRuXeGlhLz8X3MDpCQOZqBRzQzaGqalLS3Pz6CJtgjnpndnbyfss6U16H6/+qP7snT3efhq+jz+9k7e/v3kTrN2PwmFKJU1NsHd0tB/R698oTyeHli54ynw2apsX+zYTySubKS2+QVobHe8bnScJGMNSkMJb9c72rcZKsYLLZXOmIcuXh4gNMNCadGlAz0Ez0Frp2vrA6SM0EgmwSvI5FzmPMYQUG5RSpkiSpXLKc9rpB5FpbkC3IRKtnMjWUZMN44RKZ9dSrHSOOzNrS9OPIl6K0DxqEeNJYaKKaH68l/MbrdIqoRfWZaOFsN9A51xSdL4Ll8K/ov0KmsL4HBJui4Xl+XPMRlgkqSj8EK0W7DCvDVZL6n5T4kYkvvpqNoWulQ6dEvhSQ+/egPJG2h1uisRVo4otBf6AQKhgTtWO8n2M2fnNgDlnKL+1I8fhUXi0596Y6uburlawrs6w2j5GPZOYyyrGCpQvWXsR2+130u2vD2THISNs+sTzXC0MiysjJIoIkTAdzAIvXI0gvRgUHxVDgd7PsNUgGJ0GXbrJFH6j8srRwQ0tX0xu5rbUSloaC4XpoO3ULjDWHaY0G3E+upPNdhOygWVY9OYiJR54MEW+BpnyxJFwTQUcSUw4nwFr9XQnG0ERCDItsChiRc7zZbjVf1qjFKboM/Yq5TAMPnFLyHeyietOjWRTDBWLwS4Auxt2SwQXJUe5huw8sRW56SOiEryCBpnXodoEBWK21SfCO+kTc7zxOwypGKMJYGGlC+Qb8XnJ8baynrsoaCmtmAq61H6lW6/sqmixWITcLYdKzyKPaqIPg7dXH0dXtCfMbJHThcUoF+Z66uvZE5CdggOyC1Xk7Ltq2q0MREHdC3lityi3fl9J1CmAb1e7FLeRqQsVeHdxmeTzy84aiZNqKeZ9OyzPTlNP9bQt4P9/DPOFxcJXG5U5x3Fp7T1d+dL/Odgv/bix30xYm+qPRSyjpoFbVqsY2/dE5+s1fcZdmmY3fJxzLVyzoQ6RCkPP2G6mPDfwHc9/GvoR5mf2Xwe3gy77j1SMiWNe0Rs+PsKynSbX92iYAU/d8Lnya29rjt0xIWz27s1VVOPb5npzPRqjcezHuQJHHPyq+YKGNfzrzlYuDq4TuG+rAJvOrMLqges1Jl0uGjW2eoTvCZ3NmLw67B3myFmM1SNIzFPjrKV3cna9/geTHTGH
+sidebar_class_name: "post api-method"
+info_path: docs/sign-api-v3/skribble-api-v-3
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Add an additional document"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/signature-requests/{SR_ID}/documents"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+To add an additional document while the `SignatureRequest` is still in `DRAFT`.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails
+  {...require("./add-document-in-signature-request.ParamsDetails.json")}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./add-document-in-signature-request.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./add-document-in-signature-request.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

@@ -1,0 +1,70 @@
+---
+id: delete-signature-attachment
+title: "Remove an attachment from a signature request"
+description: "Delete the attachment with the `ATTACHMENT_ID` from the `SignatureRequest`"
+sidebar_label: "Remove an attachment from a signature request"
+hide_title: true
+hide_table_of_contents: true
+api: eJy9Vt1z2kYQ/1du9NTOIAkDtjFPpTHTMk2djMFPwVOfpBVcLd2pdycIYfS/Z/ckBBgnzSSd8oLubj9++707z/Kl8UYfvJlYSm5LDWxsLY9XOUjrPXa8BEysRWGFkt7Iu4UMLDC7AsZbMrYRduXunsbz+fjN739O7uZ/TW+fWKpVXj+04u/hnxKMfVrIlmt6i+/3xOB1PFWA5qRtmqC+xOlrmY+gdTwDcamF3SL6nRcB16Dx87FC0AXXPEdGbdyjxAMKczqQUZAlBbcr76V5D1IgOgKkIQaxhoRtViBZrAExyaWDe/BUYwtT0d8QEySNF0IDIre6BIQYryDn3mjn2W1BEIzVKAYpU6VzbvGmLEXiVR0PPvK8yIgmbn7+gF9xn99cDn0+6IF/BXxwcd3j/ethhBytWSc+/2bz0AC5N+/UqoOTmTC16ZAE/5V1Q0j6/e7gyu9f3wz9YXw58LvRRd/vDnvdpJtcwUXvwqMYajCFkgYMKeh1u/R3as67P0j04LWnX3nCdB2dmubinOZB8tKulBafIKmJBudEd8qyVJWypujdnFPMlWI5l9u9PkOUl6+BmkrMSMkzZkCvQTPQWumaun9OPUMiEQMrJV9zkfEI3VchMeb1Sh1qw+vUsR55odmH0N9DCXcu56vwUKx4d5IwlaskwlPXSqkzlLWytjCjMOSFCMyzFhFqD2KVh+v+WVa91yopYzown82wqj+Bzrjz2FfFJfCv0n4DTa79kiRki4Tl2ZeQzbC5UdV+E6xW2Ou4DrJaUI+HHjSjUqhTdd+J2qogLV5TLXRuCCiWQqbKUQrrimPW+IaN30+ZA0FxqQH0g27QPYM1p9I95WKJiksKtWujrKaPwLgyL8ooE3G2ZW1StewL6fhrhawfMJJNVzzL1MawqDRCgsGKZOhGZoHnhqmUUe4bLCJmFROY4kvs3yiMtIFPOUluMyorHRxkaPG6CSDaqtgaC7npIG1qN+ijDlOazTifLeSe3QRsalmh1VokhAMVU1+phaQ8diDqluVAYqD4ElhbGQu5Lw0Sgkhz7FMiRgu3wVELbIkSSNFm7JLKyTD4xS1JXsi9X51b9y5nKbqKRWA3gH0VxxAKFwXHsgvYOLYlmdl4RMWYOgaR1646OAUixosCo+TiFyxkE5j+we4goH6MJIANkhJoPwoKrHJgPZcoSCmtSAUlY/Pi1y+n2b/ZbALungOll2Ej1YRvp28md7MJ8QQrm2fUqdDLuXmXNr3phZCTRgHShzJ09L5K/dJAiJpjhWmJo/IAubV7IrG+AJoJcgrxWDI+4tQR9Ezl88vJGxVVoYzFuB/puIdcrSkhjpcWt5vwQ2q08+JFie0caFo5/o/1p+kZFj7asMg4zvKqccau6fMfvPM+j4yj/XZz1Orp+nQ7wJa1QveQlN0u4gYedFZVdI2CNK1S+LnmWrhxQ/MgEYa+ceCkPDPwFef8dN/sBz+zH92jXvVCc0mtlzBmJZ3w8xm27XJHvf2HEX/HavQdgE8DUz0ej/bbydvJfELBLCnk7ShpRkfnsO7uXteCwXUUc/UMsqpapZbOpKyqPgOh1x4s
+sidebar_class_name: "delete api-method"
+info_path: docs/sign-api-v3/skribble-api-v-3
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Remove an attachment from a signature request"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"delete"}
+  path={"/signature-requests/{SR_ID}/attachments/{ATTACHMENT_ID}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Delete the attachment with the `ATTACHMENT_ID` from the `SignatureRequest`
+with the ID `SR_ID`
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails
+  {...require("./delete-signature-attachment.ParamsDetails.json")}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./delete-signature-attachment.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./delete-signature-attachment.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      

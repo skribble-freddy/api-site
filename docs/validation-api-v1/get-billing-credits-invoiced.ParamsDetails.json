@@ -1,0 +1,1 @@
+{"parameters":[{"in":"query","name":"period","schema":{"type":"string"},"description":"Format YYYY, YYYYMM, YYYYMMDD is supported. If not specified the last\ninvoiced period is used by default","required":false}]}

@@ -23,6 +23,13 @@ npm run clean-api-docs:version # Clean docs for a specific version
 
 There are no automated tests in this project.
 
+## CI/CD
+
+The GitHub Actions workflow (`.github/workflows/ci.yaml`) runs on every push/PR to `main`:
+1. `npm run gen-api-docs all` — fetch OpenAPI specs and generate MDX docs
+2. `npm run build` — build the Docusaurus site to `./build`
+3. Deploy `./build` to the `gh-pages` branch (on `main` only) via `peaceiris/actions-gh-pages`
+
 ## Architecture
 
 ### OpenAPI Docs (auto-generated)
